@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.8.1"
+  },
+  "name": "starts-foundation",
+  "description": "Website for Starts Foundation Nepal",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "prettier --write . && NODE_ENV=development nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yianan261/Starts-Foundation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yianan261/Starts-Foundation/issues"
+  },
+  "homepage": "https://github.com/yianan261/Starts-Foundation#readme"
+}
