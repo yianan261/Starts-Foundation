@@ -1,7 +1,7 @@
 import React from "react";
 
 function ServerError() {
-  return <h1>Oops...Something went wrong</h1>;
+  return <h1 className="errorHeader">Oops...Something went wrong</h1>;
 }
 
 ServerError.propTypes = {};

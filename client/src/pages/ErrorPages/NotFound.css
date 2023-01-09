@@ -1,10 +1,10 @@
-h1 {
+.errorHeader {
   font-size: 150px;
   text-align: center;
   margin-bottom: 0;
 }
 
-h2 {
+.notFound {
   margin-top: 0;
   font-size: 90px;
   text-align: center;
