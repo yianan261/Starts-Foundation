@@ -3,20 +3,26 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import NotFound from "./pages/NotFound";
-import About from "./pages/About";
+import NotFound from "./pages/ErrorPages/NotFound";
+import ServerError from "./pages/ErrorPages/ServerError";
+import About from "./pages/About/About";
 import reportWebVitals from "./reportWebVitals";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    errorElement: <NotFound></NotFound>,
+    errorElement: <ServerError />,
   },
   {
     path: "/about",
     element: <About></About>,
-    errorElement: <NotFound></NotFound>,
+    errorElement: <ServerError />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
+    errorElement: <ServerError />,
   },
 ]);
 
