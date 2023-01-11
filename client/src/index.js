@@ -6,6 +6,7 @@ import App from "./App";
 import NotFound from "./pages/ErrorPages/NotFound";
 import ServerError from "./pages/ErrorPages/ServerError";
 import About from "./pages/About/About";
+import Login from "./pages/AdminLogin/Login";
 import reportWebVitals from "./reportWebVitals";
 
 const router = createBrowserRouter([
@@ -17,6 +18,11 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About></About>,
+    errorElement: <ServerError />,
+  },
+  {
+    path: "/admin",
+    element: <Login />,
     errorElement: <ServerError />,
   },
   {

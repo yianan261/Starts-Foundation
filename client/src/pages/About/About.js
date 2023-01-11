@@ -6,6 +6,7 @@ function About() {
   return (
     <>
       <Navbar />
+      <div className="aboutMainDiv"></div>
     </>
   );
 }
