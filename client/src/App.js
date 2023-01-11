@@ -13,6 +13,7 @@ function App() {
             <p className="tagline">
               Amongst all the chaos, we thrive with solidarity
             </p>
+
             <button className="donateBtnMain">Donate</button>
           </div>
         </div>

@@ -8,6 +8,7 @@ import ServerError from "./pages/ErrorPages/ServerError";
 import About from "./pages/About/About";
 import Login from "./pages/AdminLogin/Login";
 import reportWebVitals from "./reportWebVitals";
+import AdminHomePage from "./pages/AdminHome/AdminHomePage";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
   {
     path: "/admin",
     element: <Login />,
+    errorElement: <ServerError />,
+  },
+  {
+    path: "/admin/home",
+    element: <AdminHomePage />,
     errorElement: <ServerError />,
   },
   {

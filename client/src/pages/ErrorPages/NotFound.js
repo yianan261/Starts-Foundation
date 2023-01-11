@@ -1,6 +1,10 @@
 import React from "react";
 import "./NotFound.css";
 
+/**
+ * module that returns error page
+ * @returns error page
+ */
 function NotFound() {
   return (
     <div>

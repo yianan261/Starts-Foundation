@@ -1,9 +1,14 @@
 import React, { useState } from "react";
-import useForm from "../../utils/useForm";
+import useForm from "./useForm";
 import validate from "../../utils/LoginFormValidationRules";
 import "./Login.css";
 import { redirect } from "react-router-dom";
 
+/**
+ * function for login 
+ * @param {props} props 
+ * @returns JSX of login page
+ */
 const Login = (props) => {
   const { values, errors, handleChange, handleSubmit } = useForm(
     login,
@@ -27,7 +32,7 @@ const Login = (props) => {
               <h1 className="auth-form-title">Admin Login</h1>
               <form onSubmit={handleSubmit} noValidate>
                 <div className="field">
-                  <label className="label">Email Address</label>
+                  <label className="label">Username</label>
                   <div className="control">
                     <input
                       autoComplete="off"
@@ -60,7 +65,7 @@ const Login = (props) => {
                   )}
                 </div>
                 <div className="forgetPassword">
-                  <a href="/forgetPassword">Forget Password?</a>
+                  <a href="/forget-password">Forget Password?</a>
                 </div>
                 <span className="btnSpan">
                   <button type="submit" className="submitBtn btn btn-primary">
@@ -76,4 +81,5 @@ const Login = (props) => {
   );
 };
 
+Login.propTypes = {};
 export default Login;
