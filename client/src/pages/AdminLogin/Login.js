@@ -5,8 +5,8 @@ import "./Login.css";
 import { redirect } from "react-router-dom";
 
 /**
- * function for login 
- * @param {props} props 
+ * function for login
+ * @param {props} props
  * @returns JSX of login page
  */
 const Login = (props) => {

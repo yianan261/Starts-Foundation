@@ -13,7 +13,7 @@ function Navbar() {
       >
         <div className="container-xl navContainer">
           <span className="logoSpan">
-            <img src={logo} className="logo" alt="tutor app logo" />
+            <img src={logo} className="logo" alt="starts foundation logo" />
           </span>
 
           <div className="navbar-brand">

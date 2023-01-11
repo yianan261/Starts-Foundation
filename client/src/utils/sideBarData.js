@@ -1,6 +1,6 @@
 import { FaEdit } from "react-icons/fa";
-import { BsFillGearFill, BsFillPeopleFill} from "react-icons/bs";
-import {AiFillHome} from "react-icons/ai"
+import { BsFillGearFill, BsFillPeopleFill } from "react-icons/bs";
+import { AiFillHome } from "react-icons/ai";
 
 /**
  * exports sidebar data, including title, path, icon, className
@@ -9,13 +9,13 @@ export const sidebarData = [
   {
     title: "Home",
     path: "/admin/home",
-    icon: <AiFillHome/>,
+    icon: <AiFillHome />,
     cName: "sidenav__list-item",
   },
   {
     title: "Manage Admins",
     path: "/admin/manage-admins",
-    icon: <BsFillPeopleFill/>,
+    icon: <BsFillPeopleFill />,
     cName: "sidenav__list-item",
   },
   {

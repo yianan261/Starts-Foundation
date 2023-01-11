@@ -1,7 +1,7 @@
 import React from "react";
 import AdminDashboard from "../../components/AdminDashboard/AdminDashboard";
 import AdminSideNav from "../../components/AdminSideNav/AdminSideNav";
-import "./AdminHomePage.css"
+import "./AdminHomePage.css";
 
 /**
  * admin home page
