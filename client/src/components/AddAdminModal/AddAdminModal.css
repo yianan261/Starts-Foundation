@@ -1,0 +1,28 @@
+.modalContainer {
+  top: 0;
+  width: 50rem;
+  margin-top: 10%;
+  height: 30vh;
+  background-color: rgb(215, 229, 245);
+  border-radius: 1rem;
+  padding: 0.5% 3% 2% 3%;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  justify-self: center;
+}
+
+.iconSpan {
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+.closeModalBtn {
+  float: right;
+  font-size: 24px;
+}
+
+.closeModalBtn:hover {
+  cursor: pointer;
+}
