@@ -1,7 +1,11 @@
 import React from "react";
 
 function AdminDashboard() {
-  return <div>AdminDashboard</div>;
+  return (
+    <div>
+      <main>AdminDashboard</main>
+    </div>
+  );
 }
 
 export default AdminDashboard;

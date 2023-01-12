@@ -1,5 +1,6 @@
 import React from "react";
 import "./NotFound.css";
+import { Link } from "react-router-dom";
 
 /**
  * module that returns error page
@@ -7,9 +8,14 @@ import "./NotFound.css";
  */
 function NotFound() {
   return (
-    <div>
+    <div className="notFoundMainDiv">
       <h1 className="errorHeader">404</h1>
       <h2 className="notFound">Page Not Found</h2>
+      <span className="backHomeSpan">
+        <Link className="backHome" to="/">
+          Back Home
+        </Link>
+      </span>
     </div>
   );
 }

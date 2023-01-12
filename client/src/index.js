@@ -3,22 +3,25 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import NotFound from "./pages/ErrorPages/NotFound";
-import ServerError from "./pages/ErrorPages/ServerError";
-import About from "./pages/About/About";
-import Login from "./pages/AdminLogin/Login";
+import {
+  About,
+  AdminHomePage,
+  Login,
+  NotFound,
+  ServerError,
+  ManageAdminsPage,
+} from "./pages/index.js";
 import reportWebVitals from "./reportWebVitals";
-import AdminHomePage from "./pages/AdminHome/AdminHomePage";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>,
+    element: <App/>,
     errorElement: <ServerError />,
   },
   {
     path: "/about",
-    element: <About></About>,
+    element: <About/>,
     errorElement: <ServerError />,
   },
   {
@@ -29,6 +32,11 @@ const router = createBrowserRouter([
   {
     path: "/admin/home",
     element: <AdminHomePage />,
+    errorElement: <ServerError />,
+  },
+  {
+    path: "/admin/manage-admins",
+    element: <ManageAdminsPage />,
     errorElement: <ServerError />,
   },
   {
