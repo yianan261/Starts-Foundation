@@ -8,7 +8,7 @@ function Navbar() {
     <div>
       <nav
         id="mainNavbar"
-        className="navbar navbar-expand-md fixed-top navAll"
+        className="navbar navbar-expand-md navbar-dark fixed-top navAll"
         role="navigation"
       >
         <div className="container-xl navContainer">
