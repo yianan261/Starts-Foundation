@@ -4,6 +4,7 @@ import "./AddAdminModal.css";
 import { MdPersonAddAlt1 } from "react-icons/md";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import PropTypes from "prop-types";
+import CreateAdmin from "../CreateAdmin/CreateAdmin";
 
 function AddAdminModal({ handleModal }) {
   //todo: change the admin account signup to email invite?
@@ -30,6 +31,10 @@ function AddAdminModal({ handleModal }) {
           <span className="iconSpan">
             <MdPersonAddAlt1 size={30} />
           </span>
+          <div className="createAdminDiv">
+          <h1 className="create-title"> Create a new administrator</h1>
+          <CreateAdmin/>
+          </div>
         </div>
       </div>
     </div>,

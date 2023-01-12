@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { sidebarData } from "../../utils/sideBarData.js";
 import "./AdminSideNav.css";
-
+import LogoutMenu from "../LogoutMenu/LogoutMenu.js";
 /**
  * Admin side nav component
  * @returns JSX of side nav of admin page
@@ -10,7 +10,11 @@ import "./AdminSideNav.css";
 function AdminSideNav() {
   return (
     <div role="complementary">
+  
       <div className="sidenav">
+      <div className="logoutMenu">
+        <LogoutMenu />
+        </div>
         <ul className="sidenav__list">
           {sidebarData.map((item, index) => {
             return (

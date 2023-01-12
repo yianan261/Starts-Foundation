@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 
-
 function App() {
   return (
     <div className="App">
@@ -55,9 +54,7 @@ function App() {
         <div className="banner">
           <div className="subContainer">
             <h1 className="startsFoundation">STARTS FOUNDATION</h1>
-            <p className="tagline">
-              Helping communities in Nepal
-            </p>
+            <p className="tagline">Helping communities in Nepal</p>
 
             <button className="learnBtnMain">Learn More</button>
           </div>

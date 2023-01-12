@@ -1,3 +1,12 @@
-.adminDiv{
-    align-items: center;
+.adminDiv {
+  align-items: center;
+}
+
+#dropdownMenuLink{
+    width:20%
+}
+
+.logoutMenu{
+    position: fixed;
+    align-items: start;
 }

@@ -1,0 +1,14 @@
+.logout {
+ padding-right: 2%;
+}
+
+.logout-icon{
+    float:right;
+    padding-right:2%
+}
+
+#dropdownMenuLink{
+    background-color: #3253ca;
+    border: none;
+}
+
