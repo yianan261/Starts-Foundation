@@ -22,7 +22,7 @@ const RecentNews = ({ displayTrio }) => {
    * @returns month name string
    */
   const dateHelperMonth = (date) => {
-    const mm = date.getMonth(); //month starts with 0 so add 1
+    const mm = date.getMonth();
     return months[mm];
   };
 

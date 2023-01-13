@@ -1,11 +1,11 @@
 .containerMission {
-    padding-top: 2vh;
+  padding-top: 2vh;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
- align-items: center;
+  align-items: center;
 }
 
 .missionTitle,
@@ -20,35 +20,36 @@
   padding-bottom: 1%;
   text-align: center;
 }
-.mis-icon{
-    padding-left: 1%;
+.mis-icon {
+  padding-left: 1%;
 }
 
-.vision-p,.mission-p,.goal-p{
-    color: #cecece;
-    padding-left: 10%;
-    padding-right:10%;
-    color:rgb(8, 2, 27);
-    font-size:20px;
-    text-align: center;
-    line-height: 2;
-
+.vision-p,
+.mission-p,
+.goal-p {
+  color: #cecece;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: rgb(8, 2, 27);
+  font-size: 20px;
+  text-align: center;
+  line-height: 2;
 }
 
-.left-quote-icon{
-   transform: translateX(-5vw); 
-   color:rgb(2, 77, 147)
+.left-quote-icon {
+  transform: translateX(-5vw);
+  color: rgb(2, 77, 147);
 }
 
-.right-quote-icon{
-    transform: translateX(25vw); 
-   color:rgb(2, 77, 147)
+.right-quote-icon {
+  transform: translateX(25vw);
+  color: rgb(2, 77, 147);
 }
 
-.row-box{
-    background-color: #046ab8;
-    border-radius:10rem;
-    padding-top:2%;
-    width:60vw;
-    height:30vh;
+.row-box {
+  background-color: #046ab8;
+  border-radius: 10rem;
+  padding-top: 2%;
+  width: 60vw;
+  height: 30vh;
 }

@@ -40,7 +40,7 @@ function App() {
   ];
 
   const [displayTrio, setDisplayTrio] = useState([]);
-  
+
   //todo: put mockDB in dependency list (will be paginated)
   useEffect(() => {
     try {
@@ -50,7 +50,7 @@ function App() {
     } catch (err) {
       console.error(err);
     }
-  },[]);
+  }, []);
 
   console.log("trio", displayTrio);
 
@@ -118,8 +118,9 @@ function App() {
       <section className="sectionAbout" ref={about}>
         <About />
       </section>
+      {/* Mission Section */}
       <section className="sectionMission">
-        <Mission/>
+        <Mission />
       </section>
       {/* News Section */}
       <section className="sectionNews">
