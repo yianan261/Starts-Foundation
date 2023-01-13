@@ -9,19 +9,19 @@
  padding-top: 5%;
 }
 
-.nepali-elder-pic{
-  width:40vw;
-  height:50vh;
+.first-pic{
+  width:35vw;
+  height:45vh;
 }
 
-.elder-pic-div{
+.first-pic-div{
   width:40vw;
   height:50vh;
 }
 
 .aboutUsDiv{
   width:40vw;
-  height:50vh;
+  height:40vh;
 }
 .aboutTitle{
   color:white;
@@ -33,12 +33,19 @@
   padding-bottom: 3%;
 }
 
-.bottom-row{
-  padding-top: 1%;
-}
 
 .aboutContent{
   font-weight:500;
   color:white;
   line-height: 2;
+}
+
+.small-img{
+  width: 28vw;
+  height:35vh;
+}
+
+.small-img-class{
+width: 28vw;
+height:35vh;
 }

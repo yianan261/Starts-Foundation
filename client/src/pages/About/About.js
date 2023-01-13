@@ -12,11 +12,11 @@ function About() {
       <div className="aboutMainDiv">
         <div className="container contentDiv">
           <div className="row">
-            <div className="col elder-pic-div">
+            <div className="col first-pic-div">
               <img
-                className="nepali-elder-pic"
-                src="https://i.postimg.cc/Gm2DQNds/DSC1103-375-min.jpg"
-                alt="Nepali women that starts foundation helps"
+                className="first-pic"
+                src="https://i.postimg.cc/qRxDPLvn/106747271-1173706192993923-189927841014050624-n.jpg"
+                alt="Starts Foundation helping"
               />
             </div>
             <div className="col aboutUsDiv">
@@ -38,9 +38,27 @@ function About() {
             </div>
           </div>
           <div className="row bottom-row">
-            <div className="col">1 of 3</div>
-            <div className="col">2 of 3</div>
-            <div className="col">3 of 3</div>
+            <div className="col small-img">
+              <img
+                className="small-img-class"
+                src="https://i.postimg.cc/h4LVPT2h/DSC1103-244-min.jpg"
+                alt="nepali young girls"
+              />
+            </div>
+            <div className="col small-img">
+              <img
+                className="small-img-class"
+                src="https://i.postimg.cc/Gm2DQNds/DSC1103-375-min.jpg"
+                alt="nepali eldery community"
+              />
+            </div>
+            <div className="col small-img">
+              <img
+                className="small-img-class"
+                src="https://i.postimg.cc/0N4xF9rD/21125572-487241621640387-7562562015376023538-o.jpg"
+                alt="nepali students"
+              />
+            </div>
           </div>
         </div>
       </div>
