@@ -1,7 +1,13 @@
 .errorHeader {
-  font-size: 150px;
-  text-align: center;
+  font-size: 50px;
   margin-bottom: 0;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.errorDiv{
+  display: flex;
+  justify-content: center;
 }
 
 .notFound {

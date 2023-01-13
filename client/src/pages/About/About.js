@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import Navbar from "../../components/Navbar/Navbar";
 
 /**
  * about page
@@ -10,7 +9,7 @@ function About() {
   return (
     <>
       <div className="aboutMainDiv">
-        <div className="container contentDiv">
+        <div className="container-xl contentDiv">
           <div className="row">
             <div className="col first-pic-div">
               <img
@@ -49,7 +48,7 @@ function About() {
               <img
                 className="small-img-class"
                 src="https://i.postimg.cc/Gm2DQNds/DSC1103-375-min.jpg"
-                alt="nepali eldery community"
+                alt="nepali elderly community"
               />
             </div>
             <div className="col small-img">
