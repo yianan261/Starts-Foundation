@@ -2,8 +2,10 @@ import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/whitelogo.png";
+import PropTypes from "prop-types";
 
-function Navbar() {
+function Navbar({ scrollToSection, about }) {
+  
   return (
     <div>
       <nav
@@ -29,10 +31,8 @@ function Navbar() {
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
-                  About Us
-                </NavLink>
+              <li className="nav-item" onClick={() => scrollToSection(about)}>
+                <span className="nav-link">About Us</span>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/projects">
@@ -63,5 +63,8 @@ function Navbar() {
   );
 }
 
-Navbar.propTypes = {};
+Navbar.propTypes = {
+  scrollToSection: PropTypes.func,
+  about: PropTypes.any,
+};
 export default Navbar;

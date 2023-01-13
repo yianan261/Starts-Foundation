@@ -23,7 +23,7 @@ function ManageAdminsPage() {
         <ManageAdmins admins={admins} handleModal={handleModal} />
         <div className="col-2"></div>
       </div>
-      
+
       {modalIsOpen ? <AddAdminModal handleModal={handleModal} /> : null}
     </>
   );

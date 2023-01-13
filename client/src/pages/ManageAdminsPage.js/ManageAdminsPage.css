@@ -2,11 +2,11 @@
   align-items: center;
 }
 
-#dropdownMenuLink{
-    width:20%
+#dropdownMenuLink {
+  width: 20%;
 }
 
-.logoutMenu{
-    position: fixed;
-    align-items: start;
+.logoutMenu {
+  position: fixed;
+  align-items: start;
 }

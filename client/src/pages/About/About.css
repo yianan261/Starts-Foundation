@@ -3,3 +3,42 @@
   width: 100vw;
   height: 100vh;
 }
+
+.contentDiv{
+ transform:translateY(3vh) ;
+ padding-top: 5%;
+}
+
+.nepali-elder-pic{
+  width:40vw;
+  height:50vh;
+}
+
+.elder-pic-div{
+  width:40vw;
+  height:50vh;
+}
+
+.aboutUsDiv{
+  width:40vw;
+  height:50vh;
+}
+.aboutTitle{
+  color:white;
+  font-size: 30px;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-thickness: 0.18rem;
+  color: #ffffff;
+  padding-bottom: 3%;
+}
+
+.bottom-row{
+  padding-top: 1%;
+}
+
+.aboutContent{
+  font-weight:500;
+  color:white;
+  line-height: 2;
+}

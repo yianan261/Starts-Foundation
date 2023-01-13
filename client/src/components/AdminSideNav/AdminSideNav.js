@@ -10,10 +10,9 @@ import LogoutMenu from "../LogoutMenu/LogoutMenu.js";
 function AdminSideNav() {
   return (
     <div role="complementary">
-  
       <div className="sidenav">
-      <div className="logoutMenu">
-        <LogoutMenu />
+        <div className="logoutMenu">
+          <LogoutMenu />
         </div>
         <ul className="sidenav__list">
           {sidebarData.map((item, index) => {

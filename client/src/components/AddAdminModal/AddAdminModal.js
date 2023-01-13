@@ -32,8 +32,8 @@ function AddAdminModal({ handleModal }) {
             <MdPersonAddAlt1 size={30} />
           </span>
           <div className="createAdminDiv">
-          <h1 className="create-title"> Create a new administrator</h1>
-          <CreateAdmin/>
+            <h1 className="create-title"> Create a new administrator</h1>
+            <CreateAdmin />
           </div>
         </div>
       </div>
