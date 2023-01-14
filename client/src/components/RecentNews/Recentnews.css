@@ -1,7 +1,5 @@
 .containerNews {
   padding-top: 13vh;
-  width: 100vw;
-  height: 100vh;
 }
 
 .recentNewsTitle {
@@ -56,4 +54,8 @@
 .caption{
     margin:auto;
     color:white
+}
+
+.hrNews{
+    transform: translateY(15vh);
 }

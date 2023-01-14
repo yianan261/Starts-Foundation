@@ -47,7 +47,7 @@ const RecentNews = ({ displayTrio }) => {
   };
 
   return (
-    <div className="aboutMainDiv" role="main">
+    <div className="aboutMainDiv">
       <div className="container containerNews">
         <h1 className="recentNewsTitle">Recent News</h1>
         <div className="row">
@@ -73,6 +73,7 @@ const RecentNews = ({ displayTrio }) => {
           ))}
         </div>
       </div>
+      <hr className="hrNews" />
     </div>
   );
 };

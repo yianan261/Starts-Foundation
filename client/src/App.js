@@ -5,6 +5,7 @@ import About from "./pages/About/About";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import RecentNews from "./components/RecentNews/RecentNews";
 import Mission from "./components/Mission/Mission";
+import JoinCause from "./components/JoinCause/JoinCause";
 
 function App() {
   const about = useRef(null);
@@ -125,6 +126,10 @@ function App() {
       {/* News Section */}
       <section className="sectionNews">
         <RecentNews displayTrio={displayTrio} />
+      </section>
+      {/* Join the Cause Section */}
+      <section className="sectionJoin">
+        <JoinCause/>
       </section>
       <span className="scrollBtnSpan">
         <ScrollToTop />

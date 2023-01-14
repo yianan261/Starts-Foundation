@@ -1,0 +1,53 @@
+.containerCause {
+  padding-top: 7%;
+}
+
+.join-row {
+  padding-top: 5vh;
+}
+
+.joinCauseTitle {
+  font-size: 30px;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-thickness: 0.18rem;
+  color: rgb(255, 255, 255);
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.join-title {
+  font-size: 24px;
+  padding-bottom: 10%;
+  color: rgb(8, 2, 27);
+}
+
+.join-col-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.crowd-icon,
+.funding-icon,
+.collab-icon,
+.starts-logo {
+  height: 12vh;
+  width: 12vw;
+  padding: 2% 2% 2% 2%;
+  margin: auto;
+  color: #1b75bb;
+}
+.bottom-title {
+  padding-top: 10%;
+  font-size: 22px;
+  color: white;
+}
