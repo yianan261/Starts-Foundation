@@ -7,14 +7,14 @@ export default function TinyEditor(props) {
   const blog = blogs.filter((blog) => {
     return blog.id.toString() === props.blogId;
   });
-  const [selectedBlog, setContent] = useState(()=>{
-    if(blog.length!==0){
-      return blog[0]
-    }else{
+  const [selectedBlog, setContent] = useState(() => {
+    if (blog.length !== 0) {
+      return blog[0];
+    } else {
       return {
-        title:"",
-        content:""
-      }
+        title: "",
+        content: "",
+      };
     }
   });
   function handleChange(e) {

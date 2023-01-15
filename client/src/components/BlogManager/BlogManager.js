@@ -51,7 +51,11 @@ function BlogManager() {
               })}
             </tbody>
           </table>
-          <button name="newPost" className="btn btn-custom" onClick={handleClick}>
+          <button
+            name="newPost"
+            className="btn btn-custom"
+            onClick={handleClick}
+          >
             Write new post
           </button>
         </div>
