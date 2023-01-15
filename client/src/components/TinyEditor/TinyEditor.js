@@ -7,7 +7,16 @@ export default function TinyEditor(props) {
   const blog = blogs.filter((blog) => {
     return blog.id.toString() === props.blogId;
   });
-  const [selectedBlog, setContent] = useState(blog[0]);
+  const [selectedBlog, setContent] = useState(()=>{
+    if(blog.length!==0){
+      return blog[0]
+    }else{
+      return {
+        title:"",
+        content:""
+      }
+    }
+  });
   function handleChange(e) {
     const title = e.target.value;
     setContent({
@@ -36,7 +45,7 @@ export default function TinyEditor(props) {
       <Editor
         apiKey="ehivsy1l41uafzk4lqwabpwchdekysk8cixodxo1mnqh38ln"
         onInit={(evt, editor) => (editorRef.current = editor)}
-        initialValue={blog[0].content}
+        initialValue={selectedBlog.content}
         init={{
           height: 500,
           menubar: false,

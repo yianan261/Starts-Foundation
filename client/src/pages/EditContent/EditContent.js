@@ -25,7 +25,7 @@ function EditContent() {
               case "About Us":
                 return <TinyEditor blogId={"1"} />;
               default:
-                return null;
+                return <TinyEditor />;
             }
           })()}
         </div>
