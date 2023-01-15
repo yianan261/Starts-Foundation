@@ -38,14 +38,22 @@
 }
 .crowd-icon,
 .funding-icon,
-.collab-icon,
-.starts-logo {
+.collab-icon {
   height: 12vh;
   width: 12vw;
   padding: 2% 2% 2% 2%;
   margin: auto;
   color: #1b75bb;
 }
+
+.starts-logo {
+  height: 12vh;
+  width: 5vw;
+  padding: 2% 2% 2% 2%;
+  margin: auto;
+  transform: translateX(0.2vw);
+}
+
 .bottom-title {
   padding-top: 10%;
   font-size: 22px;
