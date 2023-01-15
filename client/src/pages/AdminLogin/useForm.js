@@ -32,7 +32,6 @@ const useForm = (callback, validate) => {
     }));
   };
 
-
   return {
     handleChange,
     handleSubmit,

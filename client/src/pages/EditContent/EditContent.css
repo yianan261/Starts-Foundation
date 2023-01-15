@@ -1,0 +1,15 @@
+.admin-mainDiv {
+  background-color: rgb(215, 229, 245);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.edit-content {
+  width: 100vw;
+  flex-direction: row;
+}
+
+h1 {
+  text-align: center;
+}
