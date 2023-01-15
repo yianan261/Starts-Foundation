@@ -13,6 +13,7 @@ import {
   NotFound,
   ServerError,
   ManageAdminsPage,
+  AdminSettings
 } from "./pages/index.js";
 import reportWebVitals from "./reportWebVitals";
 
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
   {
     path: "/admin/manage-admins",
     element: <ManageAdminsPage />,
+    errorElement: <ServerError />,
+  },
+  {
+    path: "/admin/settings",
+    element: <AdminSettings />,
     errorElement: <ServerError />,
   },
   {

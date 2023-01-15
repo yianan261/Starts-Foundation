@@ -1,0 +1,58 @@
+.rowCard {
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(223, 242, 254);
+    padding: 2%;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
+
+
+.updateSettingsSpan{
+padding-left: 40%;
+padding-top: 10%;
+display: inline-block;
+}
+.updateSettingsBtn {
+  background-color: #1e53d9;
+  border: 1px solid #d5d9d9;
+  display: inline-flex;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 5px 10px 5px 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.updateSettingsBtn:hover {
+  background-color: #0a2166;
+  color: white;
+}
+
+.updateSettingsBtn:focus {
+  border-color: #64ccdc;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
+
+
+#dropdownMenuLink {
+  width: 20%;
+}
+
+.logoutMenu {
+  position: fixed;
+  align-items: start;
+}

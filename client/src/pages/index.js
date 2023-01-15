@@ -4,5 +4,6 @@ import Login from "./AdminLogin/Login";
 import NotFound from "./ErrorPages/NotFound";
 import ServerError from "./ErrorPages/ServerError";
 import ManageAdminsPage from "./ManageAdminsPage.js/ManageAdminsPage";
+import AdminSettings from "./AdminSettings/AdminSettings";
 
-export { About, AdminHomePage, Login, NotFound, ServerError, ManageAdminsPage };
+export { About, AdminHomePage, Login, NotFound, ServerError, ManageAdminsPage,AdminSettings };
