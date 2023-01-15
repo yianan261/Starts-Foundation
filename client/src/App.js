@@ -6,9 +6,12 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import RecentNews from "./components/RecentNews/RecentNews";
 import Mission from "./components/Mission/Mission";
 import JoinCause from "./components/JoinCause/JoinCause";
+import Objectives from "./components/Objectives/Objectives";
 
 function App() {
   const about = useRef(null);
+  const news = useRef(null);
+  const join = useRef(null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -53,11 +56,11 @@ function App() {
     }
   }, []);
 
-  console.log("trio", displayTrio);
+
 
   return (
     <div className="App">
-      <Navbar scrollToSection={scrollToSection} about={about} />
+      <Navbar scrollToSection={scrollToSection} about={about} news={news} join={join} />
       <main>
         <div className="mainContainer" role="main">
           {/* <div
@@ -108,7 +111,7 @@ function App() {
           <div className="banner">
             <div className="subContainer">
               <h1 className="startsFoundation">STARTS FOUNDATION</h1>
-              <p className="tagline">Helping communities in Nepal</p>
+              <p className="tagline">Helping the communities in need</p>
 
               <button className="learnBtnMain">Learn More</button>
             </div>
@@ -123,12 +126,16 @@ function App() {
       <section className="sectionMission">
         <Mission />
       </section>
+      {/* Objective Section */}
+      <section className="sectionObjective">
+        <Objectives/>
+      </section>
       {/* News Section */}
-      <section className="sectionNews">
+      <section className="sectionNews" ref={news}>
         <RecentNews displayTrio={displayTrio} />
       </section>
       {/* Join the Cause Section */}
-      <section className="sectionJoin">
+      <section className="sectionJoin" ref={join}>
         <JoinCause/>
       </section>
       <span className="scrollBtnSpan">

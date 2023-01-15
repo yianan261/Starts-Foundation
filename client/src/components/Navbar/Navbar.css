@@ -117,3 +117,7 @@ img {
   box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
   outline: 0;
 }
+
+.dropdown-item{
+  cursor: pointer;
+}

@@ -1,22 +1,24 @@
 .containerMission {
-  padding-top: 2vh;
-  width: 100vw;
-  height: 100vh;
+  padding-top: 2%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
+.MissionDiv {
+  background-color: #f7feff;
+}
 .missionTitle,
 .visionTitle,
 .goalTitle {
   color: rgb(6, 67, 128);
-  font-size: 30px;
+  font-size: 2rem;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-thickness: 0.18rem;
-  padding-bottom: 1%;
+  padding-bottom: 5%;
   text-align: center;
 }
 .mis-icon {
@@ -30,25 +32,28 @@
   padding-left: 10%;
   padding-right: 10%;
   color: rgb(20, 1, 82);
-  font-size: 20px;
-  text-align: center;
+  font-size: 1.2rem;
+  text-align: left;
   line-height: 2;
 }
 
 .left-quote-icon {
-  transform: translateX(-5vw);
+  transform: translateX(-2.2vw);
   color: rgb(2, 77, 147);
+  opacity: 0.5;
 }
 
 .right-quote-icon {
-  transform: translateX(25vw);
+  transform: translateX(19vw);
   color: rgb(2, 77, 147);
+  opacity: 0.5;
 }
 
 .row-box {
-  background-color: #b3ddfc;
-  border-radius: 10rem;
+  background-color: #ebf4fb;
+  margin: 2%;
   padding-top: 2%;
-  width: 60vw;
-  height: 30vh;
+  width: 50vw;
+  height: 40vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

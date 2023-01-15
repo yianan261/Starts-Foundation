@@ -1,7 +1,7 @@
 .aboutMainDiv {
   background-color: #1b75bb;
   width: 100vw;
-  height: 100vh;
+  height: 105vh;
 }
 
 .contentDiv{
@@ -25,7 +25,7 @@
 }
 .aboutTitle{
   color:white;
-  font-size: 30px;
+  font-size: 2rem;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-thickness: 0.18rem;
@@ -38,6 +38,7 @@
   font-weight:500;
   color:white;
   line-height: 2;
+  font-size:1.05rem
 }
 
 .small-img{
