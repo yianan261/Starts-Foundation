@@ -1,0 +1,11 @@
+.edit-content-nav {
+  background-color: #3253ca;
+}
+
+.nav-link.active {
+  color: white !important;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
