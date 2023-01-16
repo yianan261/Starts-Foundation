@@ -51,11 +51,11 @@
   text-align: center;
 }
 
-.caption{
-    margin:auto;
-    color:white
+.caption {
+  margin: auto;
+  color: white;
 }
 
-.hrNews{
-    transform: translateY(15vh);
+.hrNews {
+  transform: translateY(15vh);
 }

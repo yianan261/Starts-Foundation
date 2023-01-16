@@ -129,7 +129,7 @@ function App() {
       </section>
       {/* Join the Cause Section */}
       <section className="sectionJoin">
-        <JoinCause/>
+        <JoinCause />
       </section>
       <span className="scrollBtnSpan">
         <ScrollToTop />

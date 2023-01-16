@@ -5,7 +5,6 @@ import logo from "../../assets/images/whitelogo.png";
 import PropTypes from "prop-types";
 
 function Navbar({ scrollToSection, about }) {
-  
   return (
     <div>
       <nav
