@@ -11,4 +11,17 @@ import NotFound from "./ErrorPages/NotFound";
 import ServerError from "./ErrorPages/ServerError";
 import ManageAdminsPage from "./ManageAdminsPage.js/ManageAdminsPage";
 
-export { About, AidForLivingLife, AWaitingSmile, Canvas, Blogs, Gallery, News, AdminHomePage, Login, NotFound, ServerError, ManageAdminsPage };
+export {
+  About,
+  AidForLivingLife,
+  AWaitingSmile,
+  Canvas,
+  Blogs,
+  Gallery,
+  News,
+  AdminHomePage,
+  Login,
+  NotFound,
+  ServerError,
+  ManageAdminsPage,
+};

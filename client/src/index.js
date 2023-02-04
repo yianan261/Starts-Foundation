@@ -36,32 +36,32 @@ const router = createBrowserRouter([
   {
     path: "/projects/aidForLivingLife",
     element: <AidForLivingLife />,
-    errorElement: <ServerError />
+    errorElement: <ServerError />,
   },
   {
     path: "/projects/canvas",
     element: <Canvas />,
-    errorElement: <ServerError />
+    errorElement: <ServerError />,
   },
   {
     path: "/projects/aWaitingSmile",
     element: <AWaitingSmile />,
-    errorElement: <ServerError />
+    errorElement: <ServerError />,
   },
   {
     path: "/media/blogs",
     element: <Blogs />,
-    errorElement: <ServerError />
+    errorElement: <ServerError />,
   },
   {
     path: "/media/news",
     element: <News />,
-    errorElement: <ServerError />
+    errorElement: <ServerError />,
   },
   {
     path: "/media/gallery",
     element: <Gallery />,
-    errorElement: <ServerError />
+    errorElement: <ServerError />,
   },
   {
     path: "/admin",
