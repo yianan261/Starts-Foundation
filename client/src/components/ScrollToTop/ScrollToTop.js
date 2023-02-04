@@ -28,9 +28,7 @@ const ScrollToTop = () => {
   };
   return (
     <div onClick={() => scrollTop()}>
-      {showScrollTopButton && (
-        <FaAngleDoubleUp className="showScrollBtn" />
-      )}
+      {showScrollTopButton && <FaAngleDoubleUp className="showScrollBtn" />}
     </div>
   );
 };

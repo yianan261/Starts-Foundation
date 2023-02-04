@@ -8,6 +8,12 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import App from "./App";
 import {
   About,
+  AidForLivingLife,
+  Canvas,
+  AWaitingSmile,
+  Blogs,
+  News,
+  Gallery,
   AdminHomePage,
   Login,
   NotFound,
@@ -26,6 +32,36 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />,
     errorElement: <ServerError />,
+  },
+  {
+    path: "/projects/aidForLivingLife",
+    element: <AidForLivingLife />,
+    errorElement: <ServerError />
+  },
+  {
+    path: "/projects/canvas",
+    element: <Canvas />,
+    errorElement: <ServerError />
+  },
+  {
+    path: "/projects/aWaitingSmile",
+    element: <AWaitingSmile />,
+    errorElement: <ServerError />
+  },
+  {
+    path: "/media/blogs",
+    element: <Blogs />,
+    errorElement: <ServerError />
+  },
+  {
+    path: "/media/news",
+    element: <News />,
+    errorElement: <ServerError />
+  },
+  {
+    path: "/media/gallery",
+    element: <Gallery />,
+    errorElement: <ServerError />
   },
   {
     path: "/admin",
