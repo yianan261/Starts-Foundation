@@ -1,10 +1,9 @@
 import React from "react";
 import "./JoinCause.css";
-import crowd from "../../assets/images/people-group-solid.svg";
 import { FaHandHoldingHeart } from "react-icons/fa";
 import { TbHeartHandshake } from "react-icons/tb";
 import { SiHandshake } from "react-icons/si";
-import logo from "../../assets/images/whitelogo.png";
+import logo from "../../assets/images/bluelogo.png";
 
 function JoinCause() {
   return (

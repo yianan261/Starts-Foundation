@@ -4,8 +4,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/whitelogo.png";
 import PropTypes from "prop-types";
 
-function Navbar({ scrollToSection, about }) {
-  
+function Navbar({ scrollToSection, about, news, join }) {
   return (
     <div>
       <nav
@@ -32,7 +31,44 @@ function Navbar({ scrollToSection, about }) {
                 </NavLink>
               </li>
               <li className="nav-item" onClick={() => scrollToSection(about)}>
-                <span className="nav-link">About Us</span>
+                <span className="dropdown">
+                  <span
+                    className="nav-link dropdown-toggle"
+                    role="button"
+                    // id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    About Us
+                  </span>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuLink"
+                  >
+                    <li>
+                      <span
+                        className="dropdown-item"
+                        onClick={() => scrollToSection(news)}
+                      >
+                        Recent News
+                      </span>
+                    </li>
+                    <li>
+                      <span
+                        className="dropdown-item"
+                        onClick={() => scrollToSection(join)}
+                      >
+                        Join the Cause
+                      </span>
+                    </li>
+                    <li>
+                      <span className="dropdown-item">Partners</span>
+                    </li>
+                    <li>
+                      <span className="dropdown-item">Testimonials</span>
+                    </li>
+                  </ul>
+                </span>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/projects">
