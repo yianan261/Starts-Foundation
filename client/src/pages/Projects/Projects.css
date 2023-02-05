@@ -15,6 +15,10 @@
   padding-bottom: 3%;
 }
 
+.quote {
+  font-style: italic;
+}
+
 .ProjectContent {
   padding-top: 87px;
   padding-bottom: 87px;

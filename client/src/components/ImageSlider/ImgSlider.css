@@ -1,12 +1,11 @@
-.lifeImgSlider {
+.ImgSlider {
     position: relative;
-    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.lifeSliderImg {
+.SliderImg {
     width: 600px;
     height: 500px;
     border-radius: 10px;

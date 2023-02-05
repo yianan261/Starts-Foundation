@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import "../ImageSlider/ImgSlider.css";
-import { LifeImgData } from "./LifeImgData";
+import { CanvasImgData } from "./CanvasImgData";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 // import PropTypes from "prop-types";
 
 /**
  * 
- * @param {slides} slides taken from the life image data
- * @returns image slider of the Aid for living life component in the top container
+ * @param {slides} slides taken from the canvas image data
+ * @returns image slider of the Canvas component in the top container
  * ref: https://www.youtube.com/watch?v=l1MYfu5YWHc
  */
 
-function LifeImgSlider({ slides }) {
+function CanvasImgSlider({ slides }) {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -31,7 +31,7 @@ function LifeImgSlider({ slides }) {
     <section className="ImgSlider">
       <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-      {LifeImgData.map((slide, index) => {
+      {CanvasImgData.map((slide, index) => {
         return (
           <div
             className={index === current ? "slide active" : "slide"}
@@ -40,7 +40,7 @@ function LifeImgSlider({ slides }) {
             {index === current && (
               <img
                 src={slide.image}
-                alt="Aid For Living Life"
+                alt="Canvas"
                 className="SliderImg"
               />
             )}
@@ -54,4 +54,4 @@ function LifeImgSlider({ slides }) {
 // LifeImgSlider.propTypes = {
 //     slides: PropTypes.,
 // }
-export default LifeImgSlider;
+export default CanvasImgSlider;
