@@ -56,11 +56,14 @@ function App() {
     }
   }, []);
 
-
-
   return (
     <div className="App">
-      <Navbar scrollToSection={scrollToSection} about={about} news={news} join={join} />
+      <Navbar
+        scrollToSection={scrollToSection}
+        about={about}
+        news={news}
+        join={join}
+      />
       <main>
         <div className="mainContainer" role="main">
           {/* <div
@@ -128,7 +131,7 @@ function App() {
       </section>
       {/* Objective Section */}
       <section className="sectionObjective">
-        <Objectives/>
+        <Objectives />
       </section>
       {/* News Section */}
       <section className="sectionNews" ref={news}>
@@ -136,7 +139,7 @@ function App() {
       </section>
       {/* Join the Cause Section */}
       <section className="sectionJoin" ref={join}>
-        <JoinCause/>
+        <JoinCause />
       </section>
       <span className="scrollBtnSpan">
         <ScrollToTop />

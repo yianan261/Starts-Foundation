@@ -71,14 +71,74 @@ function Navbar({ scrollToSection, about, news, join }) {
                 </span>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/projects">
-                  Projects
-                </NavLink>
+                <span className="dropdown">
+                  <span
+                    className="nav-link dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Projects
+                  </span>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuLink"
+                  >
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/projects/aidForLivingLife"
+                      >
+                        Aid For Living Life
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink className="dropdown-item" to="/projects/canvas">
+                        Canvas
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/projects/aWaitingSmile"
+                      >
+                        A waiting Smile
+                      </NavLink>
+                    </li>
+                  </ul>
+                </span>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/media">
-                  Media
-                </NavLink>
+                <span className="dropdown">
+                  <span
+                    className="nav-link dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Media
+                  </span>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuLink"
+                  >
+                    <li>
+                      <NavLink className="dropdown-item" to="/media/blogs">
+                        Blogs
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink className="dropdown-item" to="/media/news">
+                        News
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink className="dropdown-item" to="/media/gallery">
+                        Gallery
+                      </NavLink>
+                    </li>
+                  </ul>
+                </span>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
