@@ -51,7 +51,4 @@ function LifeImgSlider({ slides }) {
   );
 }
 
-// LifeImgSlider.propTypes = {
-//     slides: PropTypes.,
-// }
 export default LifeImgSlider;
