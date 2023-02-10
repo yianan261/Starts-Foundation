@@ -25,7 +25,6 @@
   padding-top: 3%;
   display: flex;
   font-size: 1.15rem;
-
 }
 
 .date-div {
@@ -54,11 +53,11 @@
   text-align: center;
 }
 
-.caption{
-    margin:auto;
-    color:white
+.caption {
+  margin: auto;
+  color: white;
 }
 
-.hrNews{
-    transform: translateY(15vh);
+.hrNews {
+  transform: translateY(15vh);
 }
